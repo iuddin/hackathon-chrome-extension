@@ -1,0 +1,21 @@
+
+{
+
+  "manifest_version": 2,
+  "name": "Screen Time",
+  "version": "1.0",
+  "description": "A nifty little productivity tool",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*", "https://www.youtube.com/*"],
+      "js": ["./main.js"]
+    }
+  ],
+  "icons": {
+    "16": "Time-PNG-Image.png",
+    "48": "Time-PNG-Image.png",
+    "128": "Time-PNG-Image.png" 
+  } 
+
+
+}
